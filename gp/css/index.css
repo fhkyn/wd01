@@ -4,58 +4,70 @@
   padding: 40px;
   text-align: center;
 }
+
+p {
+	width:30%;
+	text-align:center ;
+	height: 150px;
+	border:10px solid black;
+	margin-bottom: 15px;
+	background-color:#A52A2A;
+	float:left;
+	overflow:hidden;
+}
+
+
 @media (min-width:992px) {
 	h1 {
 		text-align:center ;
 	}
 	#p1{
-		color:blue;
-		width:80%;
-		height: 300px;
+		color:black;
 		
 		}
 	#p2{
 		color:cornsilk;
-		width:70%;
+			}
+	#p3{
+		color:blue;
+	
+#p4{
+		color:blue;
+			}
+	#p5{
+		color:blue;
+			}
+#p6{
+		color:blue;
+	
 	}
-
-}
-
+	#p7{
+		color:blue;
+		
+	}
 @media (min-width:768px) and (max-width:991px){
 	h1 {
 		text-align:center ;
 	}
 	#p1{
 		color:blue;
-		width:80%;
-		height: 300px;
+		
 	}
 	#p2{
 		color:cornsilk;
-		width:70%;
+		
 	}
 
 }
 @media (max-width:767px){
 	#p1{
 		color:blue;
-		width:50%;
-		height: 300px;
+		
 	}
 	#p2{
 		color:cornsilk;
-		width:50%;
+	
 	}
 }
-h1 {
-	margin-bottom: 15px;
-}
-p {
-	border:1px solid black;
-	margin-bottom: 15px;
-	background-color:#A52A2A;
-}
-#p1 {
-	background-color:#A52A2A;
-	
-}
+
+

@@ -15,7 +15,7 @@ p {
 	margin-bottom: 15px;
 	background-color:#A52A2A;
 	float:left;
-	overflow:scroll;
+	overflow:auto;
 }
 
 
